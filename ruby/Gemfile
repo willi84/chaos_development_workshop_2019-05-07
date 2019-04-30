@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem 'minitest'
+
+group :development do
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'guard' # NOTE: this is necessary in newer versions
+  gem 'guard-minitest'
+end
