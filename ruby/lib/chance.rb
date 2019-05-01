@@ -39,6 +39,13 @@ class Chance
 
   alias and &
 
+  # Implemented via DeMorgan's Law (https://en.wikipedia.org/wiki/De_Morgan%27s_laws)
+  def | other
+    !(!self & !other)
+  end
+
+  alias or |
+
   Numeric.class_eval do
     define_method :chance do
       Chance.send(:new, self)

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/ChanceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/ChanceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/Chance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/Chance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/test/unit/ChanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/test/unit/ChanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/probability/Chance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/probability/Chance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/lib/chance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/lib/chance.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/test/chance_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/test/chance_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

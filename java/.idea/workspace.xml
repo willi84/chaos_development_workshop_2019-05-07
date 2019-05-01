@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d801c6a1-5c60-410a-8667-dc69b89b7dd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/probability/Chance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/probability/Chance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/ChanceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/ChanceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/Chance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/Chance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/unit/ChanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/ChanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/probability/Chance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/probability/Chance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/tests/tests/unit/ChanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/tests/tests/unit/ChanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/lib/chance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/lib/chance.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/test/chance_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/test/chance_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="477">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
@@ -35,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -69,8 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
-        <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
         <option value="$PROJECT_DIR$/src/probability/Chance.java" />
+        <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
       </list>
     </option>
   </component>
@@ -181,6 +180,12 @@
     <history-entry file="All_in_java - 2019.04.30 at 20h 33m 31s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_java - 2019.05.01 at 15h 48m 26s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_java - 2019.05.01 at 15h 49m 44s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="50" width="1486" height="989" extended-state="0" />
@@ -193,7 +198,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32945284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -247,18 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -270,6 +263,18 @@
             <element signature="e#819#820#0" expanded="true" />
             <element signature="e#858#859#0" expanded="true" />
             <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
           </folding>
         </state>
       </provider>

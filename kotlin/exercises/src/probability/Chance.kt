@@ -24,4 +24,7 @@ class Chance(likelihoodAsFraction: Number) {
     operator fun not() = Chance(certainFraction - fraction)
 
     fun and(other: Chance) = Chance(this.fraction * other.fraction)
+
+    // Implemented with DeMorgan's Law https://en.wikipedia.org/wiki/De_Morgan%27s_laws
+    fun or(other: Chance) = !(!this).and(!other)
 }
