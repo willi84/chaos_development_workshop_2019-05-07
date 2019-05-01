@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d801c6a1-5c60-410a-8667-dc69b89b7dd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/OoBootCamp.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/OoBootCamp.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/RectangleTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/RectangleTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/OoBootCamp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/OoBootCamp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/Rectangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/probability/Chance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/probability/Chance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/ChanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/ChanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ruby/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/probability/Chance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/probability/Chance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/tests/tests/unit/ChanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/tests/tests/unit/ChanceTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,32 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="175">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
@@ -52,28 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+              <folding>
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +82,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="16" />
+    <option name="x" value="104" />
+    <option name="y" value="100" />
     <option name="width" value="2972" />
     <option name="height" value="1978" />
   </component>
@@ -204,12 +178,15 @@
     <history-entry file="All_in_java - 2019.04.30 at 14h 08m 16s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_java - 2019.04.30 at 20h 33m 31s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="8" width="1486" height="989" extended-state="0" />
+    <frame x="52" y="50" width="1486" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25367904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2571829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -249,36 +226,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="360">
           <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -294,6 +244,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

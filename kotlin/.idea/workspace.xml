@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/OoBootCamp.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/OoBootCamp.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/RectangleTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp.Tests/RectangleTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/OoBootCamp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/OoBootCamp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csharp/OoBootCamp/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp/OoBootCamp/Rectangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ruby/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/test/unit/ChanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/test/unit/ChanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/probability/Chance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/probability/Chance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,40 +21,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="219">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#176#312#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#176#277#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercises/src/rectangle/Rectangle.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/src/probability/Chance.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="504">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -105,6 +88,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,19 +191,25 @@
     <history-entry file="All_in_tests - 2019.04.30 at 20h 29m 18s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_tests - 2019.05.01 at 15h 41m 48s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.01 at 15h 42m 54s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="225" y="8" width="1486" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25367904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2571829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23864959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23864959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,23 +234,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#176#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/src/probability/Chance.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -273,6 +245,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#176#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/probability/Chance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
