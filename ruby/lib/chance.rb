@@ -7,6 +7,9 @@ class Chance
   attr_reader :fraction
   protected :fraction
 
+  CERTAIN_FRACTION = 1.0
+  EPSILON = 0.000000001
+
   def initialize likelihood_as_fraction
     @fraction = likelihood_as_fraction
   end
@@ -17,11 +20,31 @@ class Chance
 
   def eql? other
     return false unless other.is_a? Chance
-    self.fraction == other.fraction
+    (self.fraction - other.fraction).abs < EPSILON
   end
 
   def hash
     @fraction.hash
   end
+
+  def !@
+    (CERTAIN_FRACTION - @fraction).chance
+  end
+
+  alias not !
+
+  def & other
+    (self.fraction * other.fraction).chance
+  end
+
+  alias and &
+
+  Numeric.class_eval do
+    define_method :chance do
+      Chance.send(:new, self)
+    end
+  end
+
+  private_class_method :new
 
 end

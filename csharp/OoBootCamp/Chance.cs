@@ -11,9 +11,12 @@ namespace OoBootCamp
     // Understands the likelihood of something occurring
     public class Chance
     {
+        private const double CertainFraction = 1.0;
+        private const double Epsilon = 1e-6;
+
         private readonly double _fraction;
         
-        public Chance(double likelihoodAsFraction)
+        internal Chance(double likelihoodAsFraction)
         {
             _fraction = likelihoodAsFraction;
         }
@@ -25,8 +28,27 @@ namespace OoBootCamp
             return other.GetType() == this.GetType() && Equals((Chance)other);
         }
 
-        private bool Equals(Chance other) => this._fraction == other._fraction;
+        private bool Equals(Chance other) => Math.Abs(this._fraction - other._fraction) < Epsilon;
 
         public override int GetHashCode() => _fraction.GetHashCode();
+
+        public static Chance operator !(Chance c) => new Chance(CertainFraction - c._fraction);
+
+        public Chance Not() => !this;
+
+        public Chance And(Chance other) => new Chance(this._fraction * other._fraction);
+
+        public static Chance operator &(Chance left, Chance right) => left.And(right);
+
+    }
+}
+
+namespace ExtensionMethods
+{
+    public static class ChanceConstructors
+    {
+        public static Chance Chance(this double fraction) => new Chance(fraction);
+
+        public static Chance Chance(this int wholeNumber) => new Chance(wholeNumber);
     }
 }
