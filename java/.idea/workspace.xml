@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d801c6a1-5c60-410a-8667-dc69b89b7dd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Quantity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Quantity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Unit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/QuantityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/tests/tests/unit/QuantityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/tests/tests/unit/QuantityTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
               <folding>
                 <element signature="e#0#195#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="453">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#638#639#0" expanded="true" />
@@ -97,9 +94,9 @@
         <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
         <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
         <option value="$PROJECT_DIR$/src/probability/Chance.java" />
-        <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
         <option value="$PROJECT_DIR$/src/quantity/Quantity.java" />
         <option value="$PROJECT_DIR$/src/quantity/Unit.java" />
+        <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
       </list>
     </option>
   </component>
@@ -210,9 +207,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_java - 2019.05.04 at 12h 26m 44s.xml">
-      <configuration name="All in java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_java - 2019.05.04 at 12h 36m 55s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
@@ -238,6 +232,9 @@
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_java - 2019.05.04 at 19h 40m 41s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_java - 2019.05.04 at 19h 45m 51s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -335,17 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#195#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -363,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        <state relative-caret-position="453">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#605#606#0" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
@@ -372,6 +358,17 @@
             <element signature="e#944#945#0" expanded="true" />
             <element signature="e#1091#1092#0" expanded="true" />
             <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#195#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

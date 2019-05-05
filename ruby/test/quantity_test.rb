@@ -35,4 +35,12 @@ class QuantityTest < Minitest::Test
     assert_equal(8.tablespoons.hash, 0.5.cups.hash)
   end
 
+  def test_arithmetic
+    assert_equal(0.5.pints, +(8.ounces))
+    assert_equal(0.5.pints, +4.ounces + 0.5.cups)
+    assert_equal(0.5.cups + 4.ounces, 4.ounces + 0.5.cups)
+    assert_equal(-0.75.quarts, -(0.75.quarts))
+    assert_equal(-2.pints, 2.cups - 1.5.quarts)
+  end
+
 end
