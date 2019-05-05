@@ -17,16 +17,22 @@ class QuantityTest < Minitest::Test
   end
 
   def test_equality_of_unlike_units
+    assert_equal(3.teaspoons, 1.tablespoons)
+    assert_equal(0.5.cups, 8.tablespoons)
+    assert_equal(768.teaspoons, 1.gallons)
     refute_equal(4.tablespoons, 4.teaspoons)
   end
 
   def test_hash_set
     assert(Set.new([4.tablespoons]).include?(4.tablespoons))
+    assert(Set.new([8.tablespoons]).include?(0.5.cups))
     assert_equal(1, Set.new([4.tablespoons, 4.tablespoons]).count)
+    assert_equal(1, Set.new([8.tablespoons, 0.5.cups]).count)
   end
 
   def test_hash
     assert_equal(4.tablespoons.hash, 4.tablespoons.hash)
+    assert_equal(8.tablespoons.hash, 0.5.cups.hash)
   end
 
 end
