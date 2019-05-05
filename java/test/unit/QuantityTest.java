@@ -28,6 +28,8 @@ class QuantityTest {
         assertEquals(CUP.s(1/4.0), TABLESPOON.s(4));
         assertEquals(GALLON.s(1), TEASPOON.s(768));
         assertNotEquals(TABLESPOON.s(4), TEASPOON.s(4));
+        assertEquals(INCH.es(18), YARD.s(0.5));
+        assertEquals(MILE.s(1), INCH.es(12 * 5280));
     }
 
     @Test void setOperations() {
@@ -40,11 +42,13 @@ class QuantityTest {
     @Test void hash() {
         assertEquals(TABLESPOON.s(4).hashCode(), TABLESPOON.s(4).hashCode());
         assertEquals(TABLESPOON.s(4).hashCode(), CUP.s(1/4.0).hashCode());
+        assertEquals(INCH.es(18).hashCode(), YARD.s(0.5).hashCode());
     }
 
     @Test void arithmetic() {
         assertEquals(QUART.s(0.5), TABLESPOON.s(6).plus(OUNCE.s(13)));
         assertEquals(TABLESPOON.s(-6), TABLESPOON.s(6).negate());
         assertEquals(PINT.s(-0.5), TABLESPOON.s(10).minus(OUNCE.s(13)));
+        assertEquals(FOOT.s(-4), INCH.es(24).minus(YARD.s(2)));
     }
 }

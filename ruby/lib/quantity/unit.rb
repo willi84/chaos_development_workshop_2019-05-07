@@ -39,5 +39,11 @@ class Unit
     quart = Unit.new(:quarts, 2, pint)
     gallon = Unit.new(:gallons, 4, quart)
 
+    inch = Unit.new(:inches)
+    foot = Unit.new(:feet, 12, inch)
+    yard = Unit.new(:yards, 3, foot)
+    furlough = Unit.new(:furlongs, 220, yard)
+    mile = Unit.new(:miles, 8, furlough)
+
   private_class_method :new
 end

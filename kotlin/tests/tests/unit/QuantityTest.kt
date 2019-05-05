@@ -24,6 +24,8 @@ internal class QuantityTest {
         assertEquals(8.tablespoons, 0.5.cups)
         assertEquals(768.teaspoons, 1.gallons)
         assertNotEquals(4.0.tablespoons, 4.teaspoons)
+        assertEquals(18.inches, 0.5.yards)
+        assertEquals(1.miles, (12 * 5280).inches)
     }
 
     @Test internal fun `set operations`() {
@@ -36,11 +38,14 @@ internal class QuantityTest {
     @Test internal fun hash() {
         assertEquals(4.0.tablespoons.hashCode(), 4.0.tablespoons.hashCode())
         assertEquals(8.tablespoons.hashCode(), 0.5.cups.hashCode())
+        assertEquals(18.inches.hashCode(), 0.5.yards.hashCode())
     }
 
     @Test internal fun arithmetic() {
         assertEquals(0.5.quarts, +(6.tablespoons) + 13.ounces)
         assertEquals((-6).tablespoons, -(6.tablespoons))
         assertEquals((-0.5).pints, 10.tablespoons - 13.ounces)
+        assertEquals(-(4.feet), 24.inches - 2.yards)
+        assertEquals(8.chains, 1.furlongs - 44.yards)
     }
 }

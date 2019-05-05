@@ -32,6 +32,8 @@ namespace OoBootCamp.Tests
             Assert.AreEqual(0.5.Cups(), 8.Tablespoons());
             Assert.AreEqual(2.Gallons(), 1536.Teaspoons());
             Assert.AreNotEqual(4.Tablespoons(), 4.Teaspoons());
+            Assert.AreEqual(0.5.Furlongs(), 330.Feet());
+            Assert.AreEqual(126720.Inches(), 2.Miles());
         }
 
         [Test]
@@ -48,6 +50,17 @@ namespace OoBootCamp.Tests
         {
             Assert.AreEqual(4.Tablespoons().GetHashCode(), 4.Tablespoons().GetHashCode());
             Assert.AreEqual(8.Tablespoons().GetHashCode(), 0.5.Cups().GetHashCode());
+            Assert.AreEqual(0.5.Furlongs().GetHashCode(), 330.Feet().GetHashCode());
+        }
+
+        [Test]
+        public void Arithmetic()
+        {
+            Assert.AreEqual(3.Tablespoons(), +(3.Tablespoons()));
+            Assert.AreEqual((-3).Tablespoons(), -(3.Tablespoons()));
+            Assert.AreEqual(-1.5.Cups(), 6.5.Cups() - 8.Cups());
+            Assert.AreEqual(-24.Tablespoons(), 6.5.Cups() - 0.5.Gallons());
+            Assert.AreEqual(-6.Feet(), 18.Inches() - 2.5.Yards());
         }
     }
 }

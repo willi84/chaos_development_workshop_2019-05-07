@@ -26,6 +26,22 @@ class Quantity
     @unit.hash_code @amount
   end
 
+  def +@
+    self
+  end
+
+  def -@
+    Quantity.new -amount, unit
+  end
+
+  def + other
+    Quantity.new self.amount + converted_amount(other), self.unit
+  end
+
+  def - other
+    self + -other
+  end
+
   private
 
     def converted_amount other
