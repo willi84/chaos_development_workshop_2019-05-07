@@ -6,6 +6,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using OoBootCamp.Quantities;
+using OoBootCamp.Quantities.ExtensionMethods;
 
 namespace OoBootCamp.Tests
 {
@@ -17,29 +18,29 @@ namespace OoBootCamp.Tests
         [Test]
         public void EqualityOfLikeUnits()
         {
-            Assert.AreEqual(new Quantity(4, Unit.Tablespoon), new Quantity(4, Unit.Tablespoon));
-            Assert.AreNotEqual(new Quantity(4, Unit.Tablespoon), new Quantity(6, Unit.Tablespoon));
-            Assert.AreNotEqual(new Quantity(4, Unit.Tablespoon), new object());
-            Assert.AreNotEqual(new Quantity(4, Unit.Tablespoon), null);
+            Assert.AreEqual(4.Tablespoons(), 4.Tablespoons());
+            Assert.AreNotEqual(4.Tablespoons(), 6.Tablespoons());
+            Assert.AreNotEqual(4.Tablespoons(), new object());
+            Assert.AreNotEqual(4.Tablespoons(), null);
         }
 
         [Test]
         public void EqualityOfUnlikeUnits()
         {
-            Assert.AreNotEqual(new Quantity(4, Unit.Tablespoon), new Quantity(4, Unit.Teaspoon));
+            Assert.AreNotEqual(4.Tablespoons(), 4.Teaspoons());
         }
 
         [Test]
         public void HashSet()
         {
-            Assert.True(new HashSet<Quantity>() { new Quantity(4, Unit.Tablespoon) }.Contains(new Quantity(4, Unit.Tablespoon)));
-            Assert.AreEqual(1, new HashSet<Quantity>() { new Quantity(4, Unit.Tablespoon), new Quantity(4, Unit.Tablespoon) }.Count);
+            Assert.True(new HashSet<Quantity>() { 4.Tablespoons() }.Contains(4.Tablespoons()));
+            Assert.AreEqual(1, new HashSet<Quantity>() { 4.Tablespoons(), 4.Tablespoons() }.Count);
         }
 
         [Test]
         public void Hash()
         {
-            Assert.AreEqual(new Quantity(4, Unit.Tablespoon).GetHashCode(), new Quantity(4, Unit.Tablespoon).GetHashCode());
+            Assert.AreEqual(4.Tablespoons().GetHashCode(), 4.Tablespoons().GetHashCode());
         }
     }
 }

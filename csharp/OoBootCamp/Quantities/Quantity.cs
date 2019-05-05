@@ -11,7 +11,7 @@ namespace OoBootCamp.Quantities
         private readonly double _amount;
         private readonly Unit _unit;
 
-        public Quantity(double amount, Unit unit)
+        internal Quantity(double amount, Unit unit)
         {
             _amount = amount;
             _unit = unit;

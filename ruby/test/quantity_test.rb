@@ -10,23 +10,23 @@ require_relative '../lib/quantity/quantity'
 class QuantityTest < Minitest::Test
 
   def test_equality_of_like_units
-    assert_equal(Quantity.new(4, Unit::TABLESPOON), Quantity.new(4, Unit::TABLESPOON))
-    refute_equal(Quantity.new(4, Unit::TABLESPOON), Quantity.new(6, Unit::TABLESPOON))
-    refute_equal(Quantity.new(4, Unit::TABLESPOON), Object.new)
-    refute_equal(Quantity.new(4, Unit::TABLESPOON), nil)
+    assert_equal(4.tablespoons, 4.tablespoons)
+    refute_equal(4.tablespoons, 6.tablespoons)
+    refute_equal(4.tablespoons, Object.new)
+    refute_equal(4.tablespoons, nil)
   end
 
   def test_equality_of_unlike_units
-    refute_equal(Quantity.new(4, Unit::TABLESPOON),Quantity.new(4, Unit::TEASPOON))
+    refute_equal(4.tablespoons, 4.teaspoons)
   end
 
   def test_hash_set
-    assert(Set.new([Quantity.new(4, Unit::TABLESPOON)]).include?(Quantity.new(4, Unit::TABLESPOON)))
-    assert_equal(1, Set.new([Quantity.new(4, Unit::TABLESPOON), Quantity.new(4, Unit::TABLESPOON)]).count)
+    assert(Set.new([4.tablespoons]).include?(4.tablespoons))
+    assert_equal(1, Set.new([4.tablespoons, 4.tablespoons]).count)
   end
 
   def test_hash
-    assert_equal(Quantity.new(4, Unit::TABLESPOON).hash, Quantity.new(4, Unit::TABLESPOON).hash)
+    assert_equal(4.tablespoons.hash, 4.tablespoons.hash)
   end
 
 end

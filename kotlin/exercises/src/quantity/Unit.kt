@@ -7,14 +7,31 @@
 package quantity
 
 // Understands a specific metric
-class Unit private constructor() {
+class Unit {
     companion object {
-        val teaspoon = Unit()
-        val tablespoon = Unit()
-        val ounce = Unit()
-        val cup = Unit()
-        val pint = Unit()
-        val quart = Unit()
-        val gallon = Unit()
+        internal val teaspoon = Unit()
+        internal val tablespoon = Unit(3, teaspoon)
+        internal val ounce = Unit(2, tablespoon)
+        internal val cup = Unit(8, ounce)
+        internal val pint = Unit(2, cup)
+        internal val quart = Unit(2, pint)
+        internal val gallon = Unit(4, quart)
+    }
+    private val baseUnitRatio: Double
+
+    private constructor() {
+        baseUnitRatio = 1.0
+    }
+
+    private constructor(relativeRatio: Number, relativeUnit: Unit) {
+        baseUnitRatio = relativeRatio.toDouble() * relativeUnit.baseUnitRatio
     }
 }
+
+val Number.teaspoons get() = Quantity(this, Unit.teaspoon)
+val Number.tablespoons get() = Quantity(this, Unit.tablespoon)
+val Number.ounces get() = Quantity(this, Unit.ounce)
+val Number.cups get() = Quantity(this, Unit.cup)
+val Number.pints get() = Quantity(this, Unit.pint)
+val Number.quarts get() = Quantity(this, Unit.quart)
+val Number.gallons get() = Quantity(this, Unit.gallon)

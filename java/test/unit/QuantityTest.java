@@ -6,7 +6,6 @@
 package unit;
 
 import org.junit.jupiter.api.Test;
-import quantity.Quantity;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -19,22 +18,22 @@ import static quantity.Unit.*;
 class QuantityTest {
 
     @Test void equalityOfLikeUnits() {
-        assertEquals(new Quantity(4, TABLESPOON), new Quantity(4, TABLESPOON));
-        assertNotEquals(new Quantity(4, TABLESPOON), new Quantity(6, TABLESPOON));
-        assertNotEquals(new Quantity(4, TABLESPOON), new Object());
-        assertNotEquals(new Quantity(4, TABLESPOON), null);
+        assertEquals(TABLESPOON.s(4), TABLESPOON.s(4));
+        assertNotEquals(TABLESPOON.s(4), TABLESPOON.s(6));
+        assertNotEquals(TABLESPOON.s(4), new Object());
+        assertNotEquals(TABLESPOON.s(4), null);
     }
 
     @Test void equalityOfDifferentUnits() {
-        assertNotEquals(new Quantity(4, TABLESPOON), new Quantity(4, TEASPOON));
+        assertNotEquals(TABLESPOON.s(4), TEASPOON.s(4));
     }
 
     @Test void setOperations() {
-        assertTrue(new HashSet<>(Collections.singletonList(new Quantity(4, TABLESPOON))).contains(new Quantity(4, TABLESPOON)));
-        assertEquals(1, new HashSet<>(Arrays.asList(new Quantity(4, TABLESPOON), new Quantity(4, TABLESPOON))).size());
+        assertTrue(new HashSet<>(Collections.singletonList(TABLESPOON.s(4))).contains(TABLESPOON.s(4)));
+        assertEquals(1, new HashSet<>(Arrays.asList(TABLESPOON.s(4), TABLESPOON.s(4))).size());
     }
 
     @Test void hash() {
-        assertEquals(new Quantity(4, TABLESPOON).hashCode(), new Quantity(4, TABLESPOON).hashCode());
+        assertEquals(TABLESPOON.s(4).hashCode(), TABLESPOON.s(4).hashCode());
     }
 }
