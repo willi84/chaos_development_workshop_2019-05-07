@@ -9,6 +9,7 @@ package unit
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import quantity.*
+import kotlin.test.assertFailsWith
 
 // Ensures RatioQuantity operates correctly
 internal class QuantityTest {
@@ -47,5 +48,14 @@ internal class QuantityTest {
         assertEquals((-0.5).pints, 10.tablespoons - 13.ounces)
         assertEquals(-(4.feet), 24.inches - 2.yards)
         assertEquals(8.chains, 1.furlongs - 44.yards)
+    }
+
+    @Test internal fun crossMetricType()  {
+        assertNotEquals(1.inches, 1.teaspoons)
+        assertNotEquals(4.ounces, 2.feet)
+    }
+
+    @Test internal fun `incompatible units`() {
+        assertFailsWith(IllegalArgumentException::class) { 3.yards - 4.tablespoons}
     }
 }

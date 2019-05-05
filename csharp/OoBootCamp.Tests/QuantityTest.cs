@@ -62,5 +62,19 @@ namespace OoBootCamp.Tests
             Assert.AreEqual(-24.Tablespoons(), 6.5.Cups() - 0.5.Gallons());
             Assert.AreEqual(-6.Feet(), 18.Inches() - 2.5.Yards());
         }
+
+        [Test]
+        public void DifferentUnitTypes()
+        {
+            Assert.AreNotEqual(6.Cups(), 6.Tablespoons());
+            Assert.AreNotEqual(1.Inches(), 1.Teaspoons());
+            Assert.AreNotEqual(2.Feet(), 0.5.Cups());
+        }
+
+        [Test]
+        public void InvalidArithmetic()
+        {
+            Assert.That(() => 3.Inches() + 4.Teaspoons(), Throws.InvalidOperationException);
+        }
     }
 }

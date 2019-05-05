@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/test/unit/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/test/unit/QuantityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,10 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="963">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
-                <element signature="e#176#315#0" expanded="true" />
+                <element signature="e#176#304#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,12 +197,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tests - 2019.05.01 at 16h 45m 31s.xml">
-      <configuration name="All in tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_tests - 2019.05.04 at 12h 15m 37s.xml">
-      <configuration name="All in tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_tests - 2019.05.04 at 13h 37m 44s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
@@ -229,6 +219,12 @@
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_tests - 2019.05.04 at 20h 43m 58s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 20h 58m 25s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 03m 52s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -316,10 +312,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="963">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
-            <element signature="e#176#315#0" expanded="true" />
+            <element signature="e#176#304#0" expanded="true" />
           </folding>
         </state>
       </provider>

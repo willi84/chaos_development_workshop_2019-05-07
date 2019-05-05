@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d801c6a1-5c60-410a-8667-dc69b89b7dd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/unit/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/QuantityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Quantity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Quantity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exercises/src/quantity/Unit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/tests/tests/unit/QuantityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/tests/tests/unit/QuantityTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="333">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="e#0#195#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -222,12 +218,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_java - 2019.05.04 at 19h 17m 40s.xml">
-      <configuration name="All in java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_java - 2019.05.04 at 19h 23m 24s.xml">
-      <configuration name="All in java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_java - 2019.05.04 at 19h 23m 42s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
@@ -250,6 +240,12 @@
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_java - 2019.05.04 at 20h 48m 38s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_java - 2019.05.04 at 20h 58m 19s.xml">
+      <configuration name="All in java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_java - 2019.05.04 at 21h 05m 22s.xml">
       <configuration name="All in java" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -387,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="333">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="e#0#195#0" expanded="true" />
             <element signature="imports" expanded="true" />

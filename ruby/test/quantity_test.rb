@@ -47,4 +47,14 @@ class QuantityTest < Minitest::Test
     assert_equal(-100.yards, 30.feet - 0.5.furlongs)
   end
 
+  def test_inequality_of_unlike_types
+    refute_equal(1.inches, 1.teaspoons)
+    refute_equal(1.celsius, 1.teaspoons)
+  end
+
+  def test_forbidden_arithmetic
+    assert_raises(ArgumentError) { 2.tablespoons - 4.yards }
+    assert_raises(ArgumentError) { 4.yards - 2.tablespoons }
+  end
+
 end
