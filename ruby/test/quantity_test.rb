@@ -49,7 +49,6 @@ class QuantityTest < Minitest::Test
 
   def test_inequality_of_unlike_types
     refute_equal(1.inches, 1.teaspoons)
-    refute_equal(1.celsius, 1.teaspoons)
   end
 
   def test_forbidden_arithmetic

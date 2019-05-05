@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/test/unit/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/test/unit/QuantityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="963">
@@ -33,17 +35,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Quantity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            <state relative-caret-position="312">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Unit.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+            <state relative-caret-position="291">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -79,9 +81,9 @@
         <option value="$PROJECT_DIR$/exercises/src/rectangle/Rectangle.kt" />
         <option value="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" />
         <option value="$PROJECT_DIR$/exercises/src/probability/Chance.kt" />
+        <option value="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" />
         <option value="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" />
         <option value="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" />
-        <option value="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" />
       </list>
     </option>
   </component>
@@ -197,12 +199,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tests - 2019.05.04 at 13h 37m 44s.xml">
-      <configuration name="All in tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_tests - 2019.05.04 at 13h 43m 04s.xml">
-      <configuration name="All in tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_tests - 2019.05.04 at 19h 21m 54s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
@@ -225,6 +221,12 @@
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_tests - 2019.05.04 at 21h 03m 52s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 15m 09s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 16m 40s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -296,20 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Quantity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Unit.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="963">
@@ -317,6 +305,20 @@
           <folding>
             <element signature="e#176#304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Quantity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Unit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

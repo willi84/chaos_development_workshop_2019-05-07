@@ -22,7 +22,11 @@ public class Quantity {
     }
 
     private boolean equals(Quantity other) {
-        return this.amount == convertedAmount(other);
+        return this.isCompatible(other) && this.amount == convertedAmount(other);
+    }
+
+    private boolean isCompatible(Quantity other) {
+        return this.unit.isCompatible(other.unit);
     }
 
     private double convertedAmount(Quantity other) {

@@ -4,20 +4,26 @@
 
 # Understands a specific metric
 class Unit
-  attr_reader :base_unit_ratio
-  protected :base_unit_ratio
+  attr_reader :base_unit, :base_unit_ratio
+  protected :base_unit, :base_unit_ratio
 
   def initialize(plural_label, relative_ratio = 1.0, relative_unit = nil)
+    @base_unit = relative_unit.nil? ? self : relative_unit.base_unit
     @base_unit_ratio = relative_unit.nil? ? 1.0 : relative_ratio * relative_unit.base_unit_ratio
     create_convenience_constructor plural_label
   end
 
   def converted_amount other_amount, other
+    raise ArgumentError.new('Incompatible Unit types') unless compatible? other
     other_amount * other.base_unit_ratio / self.base_unit_ratio
   end
 
   def hash_code amount
     (amount * base_unit_ratio).hash
+  end
+
+  def compatible? other
+    self.base_unit == other.base_unit
   end
 
   private

@@ -22,13 +22,16 @@ public class Unit {
     public static final Unit FURLONG = new Unit(10, CHAIN);
     public static final Unit MILE = new Unit(8, FURLONG);
 
+    private final Unit baseUnit;
     private final double baseUnitRatio;
 
     private Unit() {
+        baseUnit = this;
         baseUnitRatio = 1.0;
     }
 
     private Unit(double relativeRatio, Unit relativeUnit) {
+        baseUnit = relativeUnit.baseUnit;
         baseUnitRatio = relativeRatio * relativeUnit.baseUnitRatio;
     }
 
@@ -41,10 +44,15 @@ public class Unit {
     }
 
     double convertedAmount(double otherAmount, Unit other) {
+        if (!this.isCompatible(other)) throw new IllegalArgumentException("Incompatible Unit types");
         return otherAmount * other.baseUnitRatio / this.baseUnitRatio;
     }
 
     int hashCode(double amount) {
         return Double.hashCode(amount * baseUnitRatio);
+    }
+
+    boolean isCompatible(Unit other) {
+        return this.baseUnit == other.baseUnit;
     }
 }

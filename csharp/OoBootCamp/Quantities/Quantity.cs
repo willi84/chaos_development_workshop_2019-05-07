@@ -24,7 +24,9 @@ namespace OoBootCamp.Quantities
             return other.GetType() == this.GetType() && Equals((Quantity)other);
         }
 
-        private bool Equals(Quantity other) => this._amount.Equals(ConvertedAmount(other));
+        private bool Equals(Quantity other) => this.IsCompatible(other) && this._amount.Equals(ConvertedAmount(other));
+
+        private bool IsCompatible(Quantity other) => this._unit.IsCompatible(other._unit);
 
         private double ConvertedAmount(Quantity other) => this._unit.ConvertedAmount(other._amount, other._unit);
 

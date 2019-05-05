@@ -19,7 +19,7 @@ class Quantity
 
   def eql? other
     return false unless other.is_a? Quantity
-    self.amount == converted_amount(other)
+    compatible?(other) && self.amount == converted_amount(other)
   end
 
   def hash
@@ -43,6 +43,10 @@ class Quantity
   end
 
   private
+
+    def compatible? other
+      self.unit.compatible? other.unit
+    end
 
     def converted_amount other
       self.unit.converted_amount other.amount, other.unit
