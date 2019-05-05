@@ -28,4 +28,12 @@ public class Unit {
     public Quantity s(double amount) {
         return new Quantity(amount, this);
     }
+
+    double convertedAmount(double otherAmount, Unit other) {
+        return otherAmount * other.baseUnitRatio / this.baseUnitRatio;
+    }
+
+    int hashCode(double amount) {
+        return Double.hashCode(amount * baseUnitRatio);
+    }
 }

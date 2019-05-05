@@ -24,8 +24,10 @@ namespace OoBootCamp.Quantities
             return other.GetType() == this.GetType() && Equals((Quantity)other);
         }
 
-        private bool Equals(Quantity other) => this._amount.Equals(other._amount) && this._unit == other._unit;
+        private bool Equals(Quantity other) => this._amount.Equals(ConvertedAmount(other));
 
-        public override int GetHashCode() => _amount.GetHashCode() * 37 + _unit.GetHashCode();
+        private double ConvertedAmount(Quantity other) => this._unit.ConvertedAmount(other._amount, other._unit);
+
+        public override int GetHashCode() => _unit.HashCode(_amount);
     }
 }

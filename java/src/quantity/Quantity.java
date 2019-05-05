@@ -22,11 +22,15 @@ public class Quantity {
     }
 
     private boolean equals(Quantity other) {
-        return this.amount == other.amount && this.unit == other.unit;
+        return this.amount == convertedAmount(other);
+    }
+
+    private double convertedAmount(Quantity other) {
+        return this.unit.convertedAmount(other.amount, other.unit);
     }
 
     @Override
     public int hashCode() {
-        return Double.hashCode(amount) * 37 + unit.hashCode();
+        return unit.hashCode(amount);
     }
 }

@@ -12,8 +12,16 @@ class Unit
     create_convenience_constructor plural_label
   end
 
-  private
+  def converted_amount other_amount, other
+    other_amount * other.base_unit_ratio / self.base_unit_ratio
+  end
 
+  def hash_code amount
+    (amount * base_unit_ratio).hash
+  end
+
+  private
+      
     def create_convenience_constructor plural_label
       unit = self
       Numeric.class_eval do

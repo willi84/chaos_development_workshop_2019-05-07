@@ -26,6 +26,12 @@ class Unit {
     private constructor(relativeRatio: Number, relativeUnit: Unit) {
         baseUnitRatio = relativeRatio.toDouble() * relativeUnit.baseUnitRatio
     }
+
+    internal fun convertedAmount(otherAmount: Double, other: Unit) =
+        otherAmount * other.baseUnitRatio / this.baseUnitRatio
+
+    internal fun hashCode(amount: Double) = (amount * baseUnitRatio).hashCode()
+
 }
 
 val Number.teaspoons get() = Quantity(this, Unit.teaspoon)

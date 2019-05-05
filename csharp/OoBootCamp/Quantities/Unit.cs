@@ -30,6 +30,10 @@ namespace OoBootCamp.Quantities
         }
 
         public Quantity S(double amount) => new Quantity(amount, this);
+
+        internal double ConvertedAmount(double otherAmount, Unit other) => otherAmount * other._baseUnitRatio / this._baseUnitRatio;
+
+        internal int HashCode(double amount) => (amount * _baseUnitRatio).GetHashCode();
     }
 
     namespace ExtensionMethods
