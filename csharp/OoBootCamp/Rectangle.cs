@@ -1,5 +1,5 @@
 ﻿/* 
- * Copyright (c) 2017 by Fred George
+ * Copyright (c) 2019 by Fred George
  * May be used freely except for training; license required for training.
  */
 
@@ -28,16 +28,6 @@ namespace OoBootCamp
         public double Perimeter()
         {
             return 2 * (_height + _width);
-        }
-
-        public static Rectangle Square(double side)
-        {
-            return new Rectangle(side, side);
-        }
-
-        public bool IsBetterThan(Rectangle other)
-        {
-            return this.Area() > other.Area();
         }
     }
 }

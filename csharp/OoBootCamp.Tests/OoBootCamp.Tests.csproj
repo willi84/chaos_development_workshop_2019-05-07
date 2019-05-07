@@ -54,6 +54,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChanceTest.cs" />
+    <Compile Include="QuantityTest.cs" />
     <Compile Include="RectangleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

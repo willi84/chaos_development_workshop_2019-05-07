@@ -1,4 +1,6 @@
-# Copyright 2017 by Fred George. May be copied with this notice, but not used in classroom training.
+# Copyright (c) 2019 by Fred George
+# May be used freely except for training; license required for training.
+# @author Fred George  fredgeorge@acm.org
 
 # Dockerfile to build a Ruby runtime for unit testing
 #   docker build --tag="fredgeorge/ruby_w_guard:latest" .

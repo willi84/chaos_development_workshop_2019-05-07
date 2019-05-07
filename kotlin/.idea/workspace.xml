@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="" />
+    <list default="true" id="92f28ddd-bea3-4fed-bd79-e91d4bb60ea5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quantity/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,25 +16,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="963">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+              <folding>
+                <element signature="e#176#304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/src/rectangle/Rectangle.kt">
+        <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Quantity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="312">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Unit.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -42,6 +59,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>4.0.tablespoons</find>
+      <find>Quantity(4.0, Unit.tablespoon)</find>
+      <find>RatioQuantity</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Quantity(4.0, Unit.tablespoon)</replace>
+      <replace>4.0.tablespoons</replace>
+      <replace>Quantity</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -50,6 +79,11 @@
       <list>
         <option value="$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt" />
         <option value="$PROJECT_DIR$/exercises/src/rectangle/Rectangle.kt" />
+        <option value="$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt" />
+        <option value="$PROJECT_DIR$/exercises/src/probability/Chance.kt" />
+        <option value="$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt" />
+        <option value="$PROJECT_DIR$/exercises/src/quantity/Quantity.kt" />
+        <option value="$PROJECT_DIR$/exercises/src/quantity/Unit.kt" />
       </list>
     </option>
   </component>
@@ -76,6 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,14 +126,35 @@
             </path>
             <path>
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="probability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,6 +162,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -141,19 +199,34 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tests - 2019.04.30 at 13h 38m 13s.xml">
+    <history-entry file="All_in_tests - 2019.05.04 at 19h 21m 54s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tests - 2019.04.30 at 13h 39m 11s.xml">
+    <history-entry file="All_in_tests - 2019.05.04 at 19h 32m 32s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tests - 2019.04.30 at 13h 40m 04s.xml">
+    <history-entry file="All_in_tests - 2019.05.04 at 19h 45m 56s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tests - 2019.04.30 at 13h 40m 13s.xml">
+    <history-entry file="All_in_tests - 2019.05.04 at 19h 58m 54s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tests - 2019.04.30 at 13h 41m 11s.xml">
+    <history-entry file="All_in_tests - 2019.05.04 at 20h 08m 19s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 20h 43m 58s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 20h 58m 25s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 03m 52s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 15m 09s.xml">
+      <configuration name="All in tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tests - 2019.05.04 at 21h 16m 40s.xml">
       <configuration name="All in tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -161,38 +234,45 @@
     <frame x="225" y="8" width="1486" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2571829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32945284" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23864959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23864959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32945284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercises/src/rectangle/Rectangle.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -200,10 +280,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests/unit/RectangleTest.kt">
+    <entry file="file://$PROJECT_DIR$/tests/tests/unit/ChanceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="579">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#176#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/probability/Chance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests/unit/QuantityTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="963">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="e#176#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Quantity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/quantity/Unit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
